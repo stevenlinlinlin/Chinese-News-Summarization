@@ -63,7 +63,7 @@ python run_summarization.py \
 ```
 ## generation strategies:
 * --num_beams : Beam Search, ex. 5, 10
-* --do_sample True : Top-k Sampling / Top-p Sampling / Temperature
+* --do_sample True : for following hyperparameters, Top-k Sampling / Top-p Sampling / Temperature
 * --top_k : Top-k Sampling, ex. 10, 50
 * --top_p : Top-p Sampling, ex. 0.5, 0.9
 * --temperature : Temperature, ex. 0.6, 1.4
