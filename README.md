@@ -69,7 +69,7 @@ python run_summarization.py \
 * --temperature : Temperature, ex. 0.6, 1.4
 
 # Evaluation
-use ROUGE score with chinese word segmentation to evaluate
+use ROUGE score with chinese word segmentation([ckiptagger](https://github.com/ckiplab/ckiptagger)) to evaluate
 ```
 usage: eval.py [-h] [-r REFERENCE] [-s SUBMISSION]
 
