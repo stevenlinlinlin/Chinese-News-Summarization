@@ -4,6 +4,7 @@ use Text-to-Text Transformer (T5) to do title generation
 # Package
 ```
 pip install -r requirements.txt
+pip install -e tw_rouge
 ```
 
 # Data
